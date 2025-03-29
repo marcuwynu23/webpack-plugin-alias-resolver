@@ -8,7 +8,7 @@
     "import": "./dist/index.js",
     "require": "./dist/index.js"
   },
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
