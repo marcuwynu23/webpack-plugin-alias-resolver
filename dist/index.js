@@ -68,4 +68,5 @@ class AliasResolverPlugin {
         });
     }
 }
-exports.default = AliasResolverPlugin;
+module.exports = AliasResolverPlugin;
+module.exports.default = AliasResolverPlugin;

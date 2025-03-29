@@ -15,7 +15,7 @@ type PluginOptions = {
   fileTypes?: string | string[];
 };
 
-export default class AliasResolverPlugin {
+class AliasResolverPlugin {
   alias: string;
   baseDir: string;
   targetDir: string;
@@ -107,3 +107,6 @@ export default class AliasResolverPlugin {
     });
   }
 }
+
+module.exports = AliasResolverPlugin;
+module.exports.default = AliasResolverPlugin;
