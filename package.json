@@ -1,6 +1,6 @@
 {
   "name": "@marcuwynu23/webpack-plugin-alias-resolver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Webpack plugin that rewrites path aliases like @/ into relative paths during build time.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
