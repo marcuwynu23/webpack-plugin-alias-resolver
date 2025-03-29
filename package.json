@@ -1,0 +1,36 @@
+{
+  "name": "@marcuwynu23/webpack-plugin-alias-resolver",
+  "version": "1.0.0",
+  "description": "A Webpack plugin that rewrites path aliases like @/ into relative paths during build time.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "alias",
+    "resolver",
+    "path-alias",
+    "webpack-plugin"
+  ],
+  "author": "Mark Wayne Menorca",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcuwynu23/webpack-plugin-alias-resolver"
+  },
+  "peerDependencies": {
+    "webpack": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
