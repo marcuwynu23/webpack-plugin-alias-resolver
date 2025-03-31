@@ -90,4 +90,4 @@ This plugin is fully written in TypeScript and ships with type declarations.
 
 ## 📝 License
 
-MIT © 2025 [Your Name]
+MIT © 2025 Mark Wayne Menorca
