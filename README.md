@@ -1,4 +1,14 @@
-# webpack-plugin-alias-resolver
+<div align="center">
+  <h1> webpack-plugin-alias-resolver </h1>
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/marcuwynu23/webpack-plugin-alias-resolver.svg" alt="Stars Badge"/>
+  <img src="https://img.shields.io/github/forks/marcuwynu23/webpack-plugin-alias-resolver.svg" alt="Forks Badge"/>
+  <img src="https://img.shields.io/github/issues/marcuwynu23/webpack-plugin-alias-resolver.svg" alt="Issues Badge"/>
+  <img src="https://img.shields.io/github/license/marcuwynu23/webpack-plugin-alias-resolver.svg" alt="License Badge"/>
+</p>
+
 
 🔧 A Webpack plugin that rewrites alias-based imports (like `@/`) into relative paths during build time. Useful for TypeScript or Babel outputs that retain unresolved alias paths.
 
